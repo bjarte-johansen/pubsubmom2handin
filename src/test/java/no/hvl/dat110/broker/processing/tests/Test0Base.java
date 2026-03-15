@@ -17,7 +17,7 @@ public abstract class Test0Base {
 	protected Broker broker;
 	protected Storage storage;
 	
-	protected int BROKER_TESTPORT = 0;
+	protected int BROKER_TESTPORT = 8080;
 	protected String BROKER_TESTHOST = "localhost";
 
     // we change teardown delay to allow the system to run for a while before shutting down,
