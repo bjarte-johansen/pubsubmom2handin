@@ -3,7 +3,7 @@ name: Check assignment code
 on:
   push:
     tags:
-      - 'handin[0-9]+'
+      - 'handin[0-9]+'d
 
 jobs:
   build:
